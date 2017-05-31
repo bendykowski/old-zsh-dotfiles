@@ -1,10 +1,10 @@
+#!/usr/bin/env zsh
+
 # Common ENV variables
-export PATH='/usr/local/sbin:$PATH'
 export EDITOR='nvim'
-export GIT_EDITOR='nvim'
-export VISUAL='nvim'
+export GIT_EDITOR='$EDITOR'
+export VISUAL='$EDITOR'
 export SHELL='/bin/zsh'
-export DEFAULT_USER=$USER
 
 # Fix Locale
 export LC_ALL=en_US.UTF-8
@@ -87,8 +87,8 @@ prompt pure
 bindkey -e
 
 # Autosuggest
-#source ~/.zsh/zsh-autosuggestions
-#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=0162'
+source ~/.zsh/zsh-autosuggestions
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=0162'
 
 #if [ `uname` = 'Linux' ]; then
 #    eval `dircolors ~/.dir_colors`
@@ -103,6 +103,3 @@ source ~/.zsh/aliases.sh
 ### PATH
 export PATH=/usr/local/bin:/usr/sbin:/sbin:/usr/bin:/bin
 [[ -s "/Users/richard/.gvm/scripts/gvm" ]] && source "/Users/richard/.gvm/scripts/gvm"
-
-#source ~/.zsh/zsh-autosuggestions
-

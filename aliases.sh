@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 # GENERAL
 alias chrome='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
 alias fmscon='lsof -ni TCP | grep java'
