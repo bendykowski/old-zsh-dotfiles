@@ -87,15 +87,7 @@ prompt pure
 bindkey -e
 
 # Autosuggest
-source ~/.zsh/zsh-autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=0162'
-
-#if [ `uname` = 'Linux' ]; then
-#    eval `dircolors ~/.dir_colors`
-#    export LS_OPTIONS='--color=auto'
-#else
-#    export LS_OPTIONS='-G'
-#fi
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # alias
 source ~/.zsh/aliases.sh
