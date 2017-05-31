@@ -98,7 +98,7 @@ bindkey -e
 #fi
 
 # alias
-source ~/.zsh/aliases.zsh
+source ~/.zsh/aliases.sh
 
 ### PATH
 export PATH=/usr/local/bin:/usr/sbin:/sbin:/usr/bin:/bin
