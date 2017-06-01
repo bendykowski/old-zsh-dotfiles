@@ -1,10 +1,8 @@
 #!/usr/bin/env zsh
 
 # Common ENV variables
-export EDITOR='nvim'
-export GIT_EDITOR='$EDITOR'
-export VISUAL='$EDITOR'
-export SHELL='/bin/zsh'
+export VISUAL='nvim'
+export EDITOR='$VISUAL'
 
 # Fix Locale
 export LC_ALL=en_US.UTF-8

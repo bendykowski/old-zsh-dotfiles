@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Remove superfluous blanks from each command line being added to the history
 # list
