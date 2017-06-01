@@ -13,7 +13,7 @@ export HISTSIZE=500000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 
-source ~/.zsh/zshopts.sh
+source $HOME/.zsh/zshopts.sh
 
 # case-insensitive (uppercase from lowercase) completion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
@@ -31,7 +31,7 @@ zstyle ':completion:*:descriptions' format '%U%F{yellow}%d%f%u'
 zstyle ':completion:*:*:git:*' script ~/.git-completion.sh
 
 # Functions Autoloading
-fpath=(~/.zsh $fpath)
+fpath=($HOME/.zsh $fpath)
 
 # Completion
 autoload -U promptinit && promptinit
@@ -44,10 +44,10 @@ prompt pure
 bindkey -e
 
 # Autosuggest
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # alias
-source ~/.zsh/aliases.sh
+source $HOME/.zsh/aliases.sh
 
 ### PATH
 export PATH=/usr/local/bin:/usr/sbin:/sbin:/usr/bin:/bin
