@@ -26,10 +26,10 @@ prompt pure
 bindkey -e
 
 # Autosuggest
-source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # alias
 source $HOME/.zsh/aliases.sh
 
 ### PATH
-export PATH=/usr/local/bin:/usr/sbin:/sbin:/usr/bin:/bin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
