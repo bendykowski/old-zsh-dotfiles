@@ -18,3 +18,6 @@ zstyle ':completion:*:*:git:*' script ~/.git-completion.sh
 # Completion
 autoload -U promptinit && promptinit
 autoload -U compinit compdef && compinit
+
+# Include zsh-users/zsh-completions
+fpath=($HOME/.zsh/zsh-completions/src $fpath)
