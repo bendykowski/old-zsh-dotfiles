@@ -10,3 +10,6 @@
 [submodule "zsh-completions"]
 	path = zsh-completions
 	url = https://github.com/zsh-users/zsh-completions
+[submodule "zsh-manydots-magic"]
+	path = zsh-manydots-magic
+	url = https://github.com/knu/zsh-manydots-magic
