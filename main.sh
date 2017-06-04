@@ -8,7 +8,7 @@ export EDITOR='$VISUAL'
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# Welcome
+# Welcome message
 source $HOME/.zsh/welcome.sh
 
 # Zsh options
