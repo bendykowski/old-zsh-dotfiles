@@ -35,5 +35,10 @@ source $HOME/.zsh/history.sh
 # Z
 . `brew --prefix`/etc/profile.d/z.sh
 
+# Local configs
+if [ -f $HOME/.zsh/local.sh ]; then
+    source $HOME/.zsh/local.sh
+fi
+
 ### PATH
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
