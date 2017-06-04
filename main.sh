@@ -35,7 +35,5 @@ source $HOME/.zsh/history.sh
 # Z
 . `brew --prefix`/etc/profile.d/z.sh
 
-# `brew --prefix`/bin/screenfetch -E
-
 ### PATH
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
