@@ -16,7 +16,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' menu select=2
 zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
 zstyle ':completion:*:descriptions' format '%U%F{yellow}%d%f%u'
-zstyle ':completion:*:*:git:*' script $HOME/.zsh/git-completion.sh
+zstyle ':completion:*:*:git:*' script $HOME/.zsh/git-completion.bash
 
 # Completion
 autoload -U promptinit && promptinit
