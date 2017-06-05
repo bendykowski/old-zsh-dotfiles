@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # Include zsh-users/zsh-completions
-fpath=($HOME/.zsh/zsh-completions/src $HOME/.zsh/zsh-manydots-magic $fpath)
+fpath=($HOME/.zsh/plugins/zsh-completions/src $HOME/.zsh/plugins/zsh-manydots-magic $fpath)
 
 # Case-insensitive (uppercase from lowercase) completion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'

@@ -21,10 +21,10 @@ source $HOME/.zsh/completion.sh
 prompt pure
 
 # Autosuggest
-# source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source $HOME/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Syntax highlighting
-source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
 source $HOME/.zsh/aliases.sh
