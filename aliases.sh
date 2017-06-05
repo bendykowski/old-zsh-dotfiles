@@ -12,6 +12,11 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
+# GIT hacks
+alias __git-checkout_main=_git_checkout
+alias __git-diff_main=_git_diff
+alias __git-diff_log=_git_log
+
 # GIT
 alias g='git'
 
